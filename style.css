@@ -1,0 +1,67 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial Black', 'Arial', sans-serif;
+  background-color: #fffcf7; /* Background color for the whole page */
+  color: #738290; /* Text color */
+}
+
+header {
+  background-color: #a1b5d8; /* Header background color */
+  padding: 20px;
+  text-align: center;
+  color: #738290; /* Header text color */
+}
+
+nav {
+  background-color: #738290; /* Navigation bar background color */
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around; /* Equal spacing for nav items */
+}
+
+nav a {
+  color: #fffcf7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  flex-grow: 1; /* Allow items to take equal space */
+}
+
+nav a:hover {
+  background-color: #c2d8b9; /* Highlight color on hover */
+  color: #738290;
+}
+
+.section {
+  padding: 50px;
+  text-align: center;
+}
+
+/* Customize each section with a different background color */
+#home {background-color: #e4f0d0;}
+#bio {background-color: #a1b5d8; overflow: hidden;}
+#experience {background-color: #fffcf7;}
+#notes {background-color: #e4f0d0;}
+
+/* Biography Image Style */
+.bio-image {
+  max-width: 400px; /* Set maximum width for the image */
+  height: auto;
+  float: right; /* Float the image to the right */
+  margin-left: 40px; /* Increase margin for more space from the right margin */
+  margin-top: 20px; /* Add margin from the top */
+  border-radius: 10px; /* Add border-radius for a rounded look */
+}
+
+/* Biography Text Style */
+.bio-text {
+  text-align: left;
+}
+
+#education,
+#papers {
+  text-align: left;
+}
